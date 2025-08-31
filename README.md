@@ -9,15 +9,12 @@ date: 2025-08-31
 Sirve para repetir un bloque un número conocido de veces (control por contador: inicialización → condición → actualización).
 
 ```javascript
-// Sumar del 1 al n
-function sumaHasta(n) {
-  let suma = 0;
-  for (let i = 1; i <= n; i++) {
-    suma += i;
-  }
-  return suma;
+const n = 5;
+let suma = 0;
+for (let i = 1; i <= n; i++) {
+  suma += i;
 }
-console.log(sumaHasta(5)); // 15
+console.log(suma); // 15
 
 ```
 
@@ -45,6 +42,7 @@ for (const key in persona) {
   }
 }
 
+
 ```
 
 Tip: Para objetos, muchas veces es más claro Object.entries(obj).forEach(([k,v]) => ...)
@@ -55,15 +53,13 @@ Repite mientras la condición sea verdadera (puede ejecutarse 0 veces).
 
 ```javascript
 // Factorial con while
-function factorial(n) {
-  let r = 1, i = 2;
-  while (i <= n) {
-    r *= i;
-    i++;
-  }
-  return r;
+const n = 5;
+let r = 1, i = 2;
+while (i <= n) {
+  r *= i;
+  i++;
 }
-console.log(factorial(5)); // 120
+console.log(r); // 120
 
 ```
 
