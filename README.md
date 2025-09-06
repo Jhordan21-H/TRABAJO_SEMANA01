@@ -46,6 +46,17 @@ for (const key in persona) {
 ```
 
 Tip: Para objetos, muchas veces es más claro Object.entries(obj).forEach(([k,v]) => ...)
+## Explicación gráfica 
+En este ejemplo observaremos un caso sobre como definir una lista de personas y aplicar for ,  for ..of y for ... in
+```javascript
+var listaPersonas = [
+ {"nombre": "pepe", "apellidos": "perez"},
+ {"nombre": "ana", "apellidos": "gomez"},
+ {"nombre": "almudena", "apellidos": "blanco"}
+];
+```
+![Image](https://github.com/user-attachments/assets/741004b5-1dd6-4efe-affe-46af1d2c7ee8)
+<img width="1591" height="81" alt="image" src="https://github.com/user-attachments/assets/b33f802f-e0e8-489a-9f9e-8c36416a69f8" />
 
 ## while
 
