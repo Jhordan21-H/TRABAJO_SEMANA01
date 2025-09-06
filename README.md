@@ -73,6 +73,34 @@ while (i <= n) {
 console.log(r); // 120
 
 ```
+Lo más clásico para poder ejecutar es usar un ciclo for 
+```javascript
+for (var i = 0; i < listaPersonas.length; i++) {
+ console.log(listaPersonas[i].nombre);
+ console.log(listaPersonas[i].apellidos);
+}
+```
+![Image](https://github.com/user-attachments/assets/2079bcc2-8b86-4f96-9d76-18445392c1e6)
+<img width="1617" height="81" alt="image" src="https://github.com/user-attachments/assets/03de78a7-3132-40e6-bd86-31196d4f4556" />
+Como seria utilizando el ciclo for ...of
+```javascript
+for (var persona of listaPersonas) {
+console.log(persona.nombre);
+console.log(persona.apellidos);
+}
+```
+![Image](https://github.com/user-attachments/assets/a1297200-aa42-493a-9f04-f323b61c48e1)
+<img width="1607" height="81" alt="image" src="https://github.com/user-attachments/assets/6a85ef01-adad-49df-90c1-404ca7728d34" />
+
+Como seria utilizando el ciclo for ... in 
+```javascript
+ for (var propiedad in listaPersonas) {
+ // Imprime el valor de cada propiedad
+ console.log(listaPersonas[propiedad]);
+ }
+```
+![Image](https://github.com/user-attachments/assets/6b203890-fe4e-4fb4-b667-46456b18911a)
+<img width="1612" height="81" alt="image" src="https://github.com/user-attachments/assets/c307e50f-ab23-429f-8f82-f1c6fff587ee" />
 
 ## do…while
 
