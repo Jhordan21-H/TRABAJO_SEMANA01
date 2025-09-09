@@ -1,5 +1,5 @@
 ---
-date: 2025-08-31
+date: 2025-09-31
 ---
 
 # 5) Bucles (for, while, do…while)
